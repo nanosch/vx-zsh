@@ -2,7 +2,7 @@ if [[ -z $ZSH_THEME_CLOUD_PREFIX ]]; then
     ZSH_THEME_CLOUD_PREFIX='☁'
 fi
 
-PROMPT='%{$fg_bold[cyan]%}$ZSH_THEME_CLOUD_PREFIX %{$fg_bold[green]%}%p %{$fg[green]%}%c%{$fg_bold[cyan]%}%{$reset_color%} $(git_time_since_commit)$(check_git_prompt_info) '
+PROMPT='%{$fg_bold[cyan]%}👾 %{$fg_bold[green]%}%p %{$fg[green]%}%c%{$fg_bold[cyan]%}%{$reset_color%} $(git_time_since_commit)$(check_git_prompt_info) '
 RPROMPT='%{$fg[cyan]%}%n%{$reset_color%} at %{$fg[red]%}%m%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[white]%}"
