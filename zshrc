@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.composer/vendor/bin
+export PATH="/usr/local/sbin:$PATH"
+export PATH="~/go/bin:$PATH"
+path+=/usr/local/opt/node@12/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/nanoschadams/.oh-my-zsh"
@@ -97,3 +100,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias devops="./devops"
+alias a="php artisan"
+alias c="clear"
+alias uuid="python -c 'import sys,uuid; sys.stdout.write(uuid.uuid4().hex)' | pbcopy && pbpaste && echo"
+alias fight='printf "(ง'̀-'́)ง\n"'
+alias sail='./vendor/bin/sail'
+alias sa='./vendor/bin/sail artisan'
+alias xbrew="arch -x86_64 brew"
+alias cmp="COMPOSER_MEMORY_LIMIT=-1 composer"
+alias sphp74="brew unlink php && brew link --overwrite --force php@7.4"
+alias sphp80="brew unlink php && brew link --overwrite --force php@8.0"
+export PATH="/usr/local/sbin:$PATH"
+export COMPOSER_HOME="$HOME/.config/composer";
